@@ -2,6 +2,29 @@
 ### by natrix 
 natrix > [sex here, dont click](https://github.com/natrixdev) 
 
+# anti DdoS 
+### for skids who are getting DdoSed 
+
+```SHELL
+@echo shell direr 
+{
+    if request > 100000:
+    [server.ban_request(ip)]{
+        alert:"You got ip banned for DdoS"
+    }
+}
+{if ip === VPN?_true=request:
+ [print: "nc try for the vpn "]&ban_REAL.(ip)
+ else print ('vpn was strong')
+ str()
+ expuls (ips)=>TIME=45m
+('Sorry, everyone got disconected bcause we are being DdoSed, come back in %TIME%')
+while True: 
+expuls:
+return;
+zsharp.log(ips)
+}
+```
 # dir 
 #### direr 
 ```SHELL
